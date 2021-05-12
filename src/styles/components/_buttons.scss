@@ -15,7 +15,7 @@
 .btn-primary{
     background-color: $primary;
     border-radius:2px ;
-
+    transition: color .3s ease;
     &:disabled{
         background-color: lighten($color: $primary, $amount: 10);
     }
